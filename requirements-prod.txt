@@ -1,0 +1,27 @@
+# Production requirements for CDS System
+fastapi==0.117.1
+uvicorn[standard]==0.36.0
+openai==1.108.2
+pinecone==7.3.0
+numpy==2.3.3
+pandas==2.3.2
+psycopg2-binary==2.9.10
+sqlalchemy==2.0.43
+alembic==1.16.5
+python-dotenv==1.1.1
+pydantic==2.11.9
+pydantic-settings==2.10.1
+httpx==0.28.1
+python-multipart==0.0.20
+python-jose[cryptography]==3.5.0
+passlib[bcrypt]==1.7.4
+
+# ML/AI dependencies
+sentence-transformers==2.2.2
+PyPDF2==3.0.1
+python-docx==0.8.11
+beautifulsoup4==4.12.2
+scikit-learn==1.7.1
+
+# Production server
+gunicorn==23.0.0
